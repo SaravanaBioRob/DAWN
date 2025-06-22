@@ -7,6 +7,11 @@ This repository contains the hardware control code, data analysis scripts, and s
 ```
 Daul-Actuator-Wave-Like-Navigator/
 │
+├── design-files/                   # Mechanical and electrical design files
+│   ├── molds/                      # STL files for casting robot skin and seal
+│   ├── robot/                      # STL and PDF files for mechanical parts and fixtures
+│   └── PCB/                        # KiCad PCB layout and schematic files
+│
 ├── data-and-data-analysis/          # MATLAB scripts and live notebooks for data processing
 │   ├── *.mlx                        # Live MATLAB analysis (friction, locomotion, wave studies)
 │   ├── *.m                          # Script-based versions for data processing and visualization
@@ -41,6 +46,22 @@ Daul-Actuator-Wave-Like-Navigator/
 - [MATLAB](https://www.mathworks.com/products/matlab.html)
 - Python 3.8+ with packages:
   - `pyserial`, `pandas`, `matplotlib`, `keyboard`, `csv`
+  
+## 🧩 Design Files
+
+Located in the `design-files/` directory, this folder contains all physical and electronic design assets:
+
+### 🔩 Molds (`design-files/molds/`)
+- 3D printable STL files for casting soft robot components
+- Includes molds for skin, junction seals, and structural elements
+
+### 🖨️ Robot Parts (`design-files/robot/`)
+- STL files for structural components like clamps, links, couplings, and braces
+- Includes CAD files for electronics enclosures and laser-cut shapes
+
+### 🧾 Electronics (`design-files/PCB/`)
+- KiCad design files (`.kicad_pcb`, `.kicad_sch`) for the component shield PCB
+- Backup archives for version control
 
 ## 📊 Data Analysis
 
